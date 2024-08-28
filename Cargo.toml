@@ -1,0 +1,8 @@
+[package]
+name = "git2-rusqlite-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+git2 = { version = "0.18", default-features = false }
+rusqlite = "0.32"
